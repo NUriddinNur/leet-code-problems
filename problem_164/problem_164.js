@@ -9,8 +9,8 @@ function maximumGap (nums) {
     }
 
     const mergeSort = function(arr) {
-        if (arr.length > 1) {
 
+        if (arr.length > 1) {
             mid = Math.ceil(arr.length / 2)
             let left = arr.slice(0, mid)
             let right = arr.slice(mid, arr.length)
