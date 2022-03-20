@@ -31,6 +31,7 @@ function searchMatrix (matrix, target) {
             return true
         }
     }
+    
     return false
 }
 
